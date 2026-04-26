@@ -1,0 +1,345 @@
+     --------------------------------------------------------------                                                                                 -------¬
+     ¦                  • MobaXterm Professional v22.0 •                                                                                                   ¦
+     ¦              (X server, SSH client and network tools)                                                                                               ¦
+     ¦                                                                                                                                                     ¦
+     ¦ ? Your computer drives are accessible through the /drives pa                                                                                 th     ¦
+     ¦ ? Your DISPLAY is set to 26.63.102.46:0.0                                                                                                           ¦
+     ¦ ? When using SSH, your remote DISPLAY is automatically forwa                                                                                 rded   ¦
+     ¦ ? Each command status is specified by a special symbol (? or                                                                                  ?)    ¦
+     ¦                                                                                                                                                     ¦
+     ¦                 Registered to DeltaFoX (99 users)                                                                                                   ¦
+     L-------------------------------------------------------------                                                                                 --------
+Trying 192.168.30.20...
+Connected to 192.168.30.20.
+Escape character is '^]'.
+
+                             GNU GRUB  version 2.00
+
+ +-----------------------------------------------------------------                                                                                 -|IOSv: flash0:vios-adventerprisek9-m (hd0,msdos1)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ----------------------------------------------------------                                                                                 ---------+
+      Use the ^ and v keys to select which entry is highlighted.                                                                                    
+      Press enter to boot the selected OS, `e' to edit the commands                                                                                 
+   The highlighted entry will be executed automatically in 0s.
+  Booting `IOSv: flash0:vios-adventerprisek9-m (hd0,msdos1)'
+
+Booted IOSv. Boot args: [/vios-adventerprisek9-m]
+
+Smart Init is enabled
+
+              Restricted Rights Legend
+
+Use, duplication, or disclosure by the Government is
+subject to restrictions as set forth in subparagraph
+(c) of the Commercial Computer Software - Restricted
+Rights clause at FAR sec. 52.227-19 and subparagraph
+(c) (1) (ii) of the Rights in Technical Data and Computer
+Software clause at DFARS sec. 252.227-7013.
+
+           cisco Systems, Inc.
+           170 West Tasman Drive
+           San Jose, California 95134-1706
+
+
+
+Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version                                                                                  15.6(2)T, RELEASE SOFTWARE (fc2)                                                                                                                   Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Tue 22-Mar-16 16:19 by prod_rel_team
+
+
+
+
+This product contains cryptographic features and is subject to Unit                                                                                 ed
+States and local country laws governing import, export, transfer an                                                                                 d
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encrypti                                                                                 on.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product                                                                                  you
+agree to comply with applicable laws and regulations. If you are un                                                                                 able
+to comply with U.S. and local laws, return this product immediately                                                                                 .
+
+A summary of U.S. laws governing Cisco cryptographic products may b                                                                                 e found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending emai                                                                                 l to
+export@cisco.com.
+
+Cisco IOSv (revision 1.0) with  with 410857K/111616K bytes of memor                                                                                 y.Installed image archive
+
+Processor board ID 9G75YW5M9KMKO93L7IXPI
+8 Gigabit Ethernet interfaces
+DRAM configuration is 72 bits wide with parity disabled.
+256K bytes of non-volatile configuration memory.
+2097152K bytes of ATA System CompactFlash 0 (Read/Write)
+0K bytes of ATA CompactFlash 1 (Read/Write)
+1024K bytes of ATA CompactFlash 2 (Read/Write)
+0K bytes of ATA CompactFlash 3 (Read/Write)
+
+
+
+Press RETURN to get started!
+
+
+*Mar  1 00:00:00.741: %ATA-6-DEV_FOUND: device 0x1F0
+*Mar  1 00:00:03.186: %ATA-6-DEV_FOUND: device 0x1F1
+*Mar  1 00:00:06.834: %NVRAM-5-CONFIG_NVRAM_READ_OK: NVRAM configur                                                                                 ation 'flash:/nvram' was read from disk.
+*Apr 26 16:54:41.191: %PA-3-PA_INIT_FAILED: Performance Agent faile                                                                                 d to initialize (Missing Data License)
+*Apr 26 16:54:44.204: %LINK-3-UPDOWN: Interface GigabitEthernet0/0,                                                                                  changed state to down
+*Apr 26 16:54:44.204: %LINK-3-UPDOWN: Interface GigabitEthernet0/1,                                                                                  changed state to down
+*Apr 26 16:54:44.205: %LINK-3-UPDOWN: Interface GigabitEthernet0/2,                                                                                  changed state to down
+*Apr 26 16:54:44.206: %LINK-3-UPDOWN: Interface GigabitEthernet0/3,                                                                                  changed state to up
+*Apr 26 16:54:44.207: %LINK-3-UPDOWN: Interface GigabitEthernet0/4,                                                                                  changed state to up
+*Apr 26 16:54:44.208: %LINK-3-UPDOWN: Interface GigabitEthernet0/5,                                                                                  changed state to down
+*Apr 26 16:54:44.209: %LINK-3-UPDOWN: Interface GigabitEthernet0/6,                                                                                  changed state to down
+*Apr 26 16:54:44.209: %LINK-3-UPDOWN: Interface GigabitEthernet0/7,                                                                                  changed state to down
+*Apr 26 16:54:45.045: %CVAC-4-FILE_IGNORED: Configuration file flas                                                                                 h0:/ios_config.txt is ignored : empty file
+*Apr 26 16:54:45.066: %CVAC-4-FILE_IGNORED: Configuration file flas                                                                                 h2:/ios_config.txt is ignored : empty file
+*Apr 26 16:54:45.348: %LINEPROTO-5-UPDOWN: Line protocol on Interfa                                                                                 ce GigabitEthernet0/0, changed state to down
+*Apr 26 16:54:45.349: %LINEPROTO-5-UPDOWN: Line protocol on Interfa                                                                                 ce GigabitEthernet0/1, changed state to down
+*Apr 26 16:54:45.349: %LINEPROTO-5-UPDOWN: Line protocol on Interfa                                                                                 ce GigabitEthernet0/2, changed state to down
+*Apr 26 16:54:45.350: %LINEPROTO-5-UPDOWN: Line protocol on Interfa                                                                                 ce GigabitEthernet0/3, changed state to up
+*Apr 26 16:54:45.351: %LINEPROTO-5-UPDOWN: Line protocol on Interfa                                                                                 ce GigabitEthernet0/4, changed state to up
+*Apr 26 16:54:45.351: %LINEPROTO-5-UPDOWN: Line protocol on Interfa                                                                                 ce GigabitEthernet0/5, changed state to down
+*Apr 26 16:54:45.351: %LINEPROTO-5-UPDOWN: Line protocol on Interfa                                                                                 ce GigabitEthernet0/6, changed state to down
+*Apr 26 16:54:45.352: %LINEPROTO-5-UPDOWN: Line protocol on Interfa                                                                                 ce GigabitEthernet0/7, changed state to down
+*Apr 26 16:54:45.672: %SYS-5-CONFIG_I: Configured from memory by co                                                                                 nsole
+*Apr 26 16:54:46.064: %CVAC-4-FILE_IGNORED: Configuration file flas                                                                                 h0:/ios_config.txt is ignored : empty file
+*Apr 26 16:54:47.307: %LINK-5-CHANGED: Interface GigabitEthernet0/0                                                                                 , changed state to administratively down
+*Apr 26 16:54:47.307: %LINK-5-CHANGED: Interface GigabitEthernet0/1                                                                                 , changed state to administratively down
+*Apr 26 16:54:47.340: %SYS-5-RESTART: System restarted --
+Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version                                                                                  15.6(2)T, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Tue 22-Mar-16 16:19 by prod_rel_team
+*Apr 26 16:54:47.401: %LINK-5-CHANGED: Interface GigabitEthernet0/2                                                                                 , changed state to administratively down
+*Apr 26 16:54:47.421: %CRYPTO-6-ISAKMP_ON_OFF: ISAKMP is OFF
+*Apr 26 16:54:47.421: %CRYPTO-6-GDOI_ON_OFF: GDOI is OFF
+*Apr 26 16:54:47.641: %LINK-5-CHANGED: Interface GigabitEthernet0/5                                                                                 , changed state to administratively down
+*Apr 26 16:54:47.642: %LINK-5-CHANGED: Interface GigabitEthernet0/6                                                                                 , changed state to administratively down
+*Apr 26 16:54:47.643: %LINK-5-CHANGED: Interface GigabitEthernet0/7                                                                                 , changed state to administratively down
+*Apr 26 16:54:54.866: %BGP-5-ADJCHANGE: neighbor 149.11.202.57 Up
+*Apr 26 16:54:58.330: %BGP-5-ADJCHANGE: neighbor 79.104.225.61 Up
+*Apr 26 16:55:11.856: %PLATFORM-5-SIGNATURE_VERIFIED: Image 'flash0                                                                                 :/vios-adventerprisek9-m' passed code signing verification
+**************************************************************************
+* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+* education. IOSv is provided as-is and is not supported by Cisco's      *
+* Technical Advisory Center. Any use or disclosure, in whole or in part, *
+* of the IOSv Software or Documentation to any third party for any       *
+* purposes is expressly prohibited except as otherwise authorized by     *
+* Cisco in writing.                                                      *
+**************************************************************************
+Rostelecom#
+Rostelecom#
+Rostelecom#
+Rostelecom#
+Rostelecom#
+Rostelecom#
+Rostelecom#
+Rostelecom#
+Rostelecom#
+Rostelecom#
+Rostelecom#
+Rostelecom#
+Rostelecom#show run
+Building configuration...
+
+Current configuration : 4202 bytes
+!
+version 15.6
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname Rostelecom
+!
+boot-start-marker
+boot-end-marker
+!
+!
+!
+no aaa new-model
+ethernet lmi ce
+!
+!
+!
+no process cpu autoprofile hog
+mmi polling-interval 60
+no mmi auto-configure
+no mmi pvc
+mmi snmp-timeout 180
+!
+!
+!
+!
+!
+no ip icmp rate-limit unreachable
+!
+!
+!
+!
+!
+!
+no ip domain lookup
+ip cef
+no ipv6 cef
+!
+multilink bundle-name authenticated
+!
+!
+!
+!
+!
+redundancy
+!
+no cdp log mismatch duplex
+no cdp run
+!
+ip tcp synwait-time 5
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+interface Loopback0
+ description FOR_BGP_SOURCE_ONLY
+ ip address 10.10.10.44 255.255.255.255
+!
+interface GigabitEthernet0/0
+ no ip address
+ shutdown
+ duplex auto
+ speed auto
+ media-type rj45
+ no cdp enable
+!
+interface GigabitEthernet0/1
+ no ip address
+ shutdown
+ duplex auto
+ speed auto
+ media-type rj45
+ no cdp enable
+!
+interface GigabitEthernet0/2
+ no ip address
+ shutdown
+ duplex auto
+ speed auto
+ media-type rj45
+ no cdp enable
+!
+interface GigabitEthernet0/3
+ description link_to_Avantel
+ ip address 149.11.202.58 255.255.255.252
+ duplex auto
+ speed auto
+ media-type rj45
+ no cdp enable
+!
+interface GigabitEthernet0/4
+ description link_to_Beeline
+ ip address 79.104.225.62 255.255.255.252
+ duplex auto
+ speed auto
+ media-type rj45
+ no cdp enable
+!
+interface GigabitEthernet0/5
+ no ip address
+ shutdown
+ duplex auto
+ speed auto
+ media-type rj45
+ no cdp enable
+!
+interface GigabitEthernet0/6
+ no ip address
+ shutdown
+ duplex auto
+ speed auto
+ media-type rj45
+ no cdp enable
+!
+interface GigabitEthernet0/7
+ no ip address
+ shutdown
+ duplex auto
+ speed auto
+ media-type rj45
+ no cdp enable
+!
+router bgp 202984
+ bgp router-id 10.10.10.44
+ bgp log-neighbor-changes
+ neighbor 79.104.225.61 remote-as 3216
+ neighbor 149.11.202.57 remote-as 25227
+ !
+ address-family ipv4
+  neighbor 79.104.225.61 activate
+  neighbor 79.104.225.61 soft-reconfiguration inbound
+  neighbor 149.11.202.57 activate
+  neighbor 149.11.202.57 soft-reconfiguration inbound
+ exit-address-family
+!
+ip forward-protocol nd
+!
+!
+no ip http server
+no ip http secure-server
+!
+!
+!
+!
+control-plane
+!
+banner exec ^C
+**************************************************************************
+* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+* education. IOSv is provided as-is and is not supported by Cisco's      *
+* Technical Advisory Center. Any use or disclosure, in whole or in part, *
+* of the IOSv Software or Documentation to any third party for any       *
+* purposes is expressly prohibited except as otherwise authorized by     *
+* Cisco in writing.                                                      *
+**************************************************************************^C
+banner incoming ^C
+**************************************************************************
+* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+* education. IOSv is provided as-is and is not supported by Cisco's      *
+* Technical Advisory Center. Any use or disclosure, in whole or in part, *
+* of the IOSv Software or Documentation to any third party for any       *
+* purposes is expressly prohibited except as otherwise authorized by     *
+* Cisco in writing.                                                      *
+**************************************************************************^C
+banner login ^C
+**************************************************************************
+* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+* education. IOSv is provided as-is and is not supported by Cisco's      *
+* Technical Advisory Center. Any use or disclosure, in whole or in part, *
+* of the IOSv Software or Documentation to any third party for any       *
+* purposes is expressly prohibited except as otherwise authorized by     *
+* Cisco in writing.                                                      *
+**************************************************************************^C
+!
+line con 0
+ exec-timeout 0 0
+ privilege level 15
+ logging synchronous
+line aux 0
+ exec-timeout 0 0
+ privilege level 15
+ logging synchronous
+line vty 0 4
+ login
+ transport input none
+!
+no scheduler allocate
+!
+end
+
+Rostelecom#

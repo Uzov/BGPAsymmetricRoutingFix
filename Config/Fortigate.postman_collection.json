@@ -1,0 +1,609 @@
+{
+	"info": {
+		"_postman_id": "b126a728-0ea8-4d53-8691-355bb59e41fe",
+		"name": "Fortigate",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20241689"
+	},
+	"item": [
+		{
+			"name": "get firewall address",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "t7j8bbpdctqyNrktyc7ythc031mkfp",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.30.21/api/v2/monitor/system/config/backup?destination=file&scope=global",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"30",
+						"21"
+					],
+					"path": [
+						"api",
+						"v2",
+						"monitor",
+						"system",
+						"config",
+						"backup"
+					],
+					"query": [
+						{
+							"key": "destination",
+							"value": "file"
+						},
+						{
+							"key": "scope",
+							"value": "global"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.30.21/api/v2/monitor/router/bgp/neighbors",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "skQyt7tq9xscpr6z9cg87dHns7t34y",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.30.21/api/v2/monitor/router/bgp/neighbors",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"30",
+						"21"
+					],
+					"path": [
+						"api",
+						"v2",
+						"monitor",
+						"router",
+						"bgp",
+						"neighbors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.30.21/api/v2/cmdb/firewall/address/address1?vdom=root",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "skQyt7tq9xscpr6z9cg87dHns7t34y",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{'subnet': \"2.2.2.0 255.255.255.0\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.30.21/api/v2/cmdb/firewall/address/address1?vdom=root",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"30",
+						"21"
+					],
+					"path": [
+						"api",
+						"v2",
+						"cmdb",
+						"firewall",
+						"address",
+						"address1"
+					],
+					"query": [
+						{
+							"key": "vdom",
+							"value": "root"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.30.21/api/v2/cmdb/firewall/address/address1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "skQyt7tq9xscpr6z9cg87dHns7t34y",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.30.21/api/v2/cmdb/firewall/address/address1",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"30",
+						"21"
+					],
+					"path": [
+						"api",
+						"v2",
+						"cmdb",
+						"firewall",
+						"address",
+						"address1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.30.21/api/v2/cmdb/firewall/address?vdom=root",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "skQyt7tq9xscpr6z9cg87dHns7t34y",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{'name':\"address1\", 'type':\"ipmask\", 'subnet': \"1.1.1.0 255.255.255.0\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.30.21/api/v2/cmdb/firewall/address?vdom=root",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"30",
+						"21"
+					],
+					"path": [
+						"api",
+						"v2",
+						"cmdb",
+						"firewall",
+						"address"
+					],
+					"query": [
+						{
+							"key": "vdom",
+							"value": "root"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.30.21/api/v2/monitor/router/bgp/paths",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "skQyt7tq9xscpr6z9cg87dHns7t34y",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.30.21/api/v2/monitor/router/bgp/paths",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"30",
+						"21"
+					],
+					"path": [
+						"api",
+						"v2",
+						"monitor",
+						"router",
+						"bgp",
+						"paths"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.30.21/api/v2/monitor/router/bgp/neighbors-statistics",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "skQyt7tq9xscpr6z9cg87dHns7t34y",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.30.21/api/v2/monitor/router/bgp/neighbors-statistics",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"30",
+						"21"
+					],
+					"path": [
+						"api",
+						"v2",
+						"monitor",
+						"router",
+						"bgp",
+						"neighbors-statistics"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.30.21/api/v2/monitor/router/bgp/static",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "skQyt7tq9xscpr6z9cg87dHns7t34y",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.30.21/api/v2/monitor/router/static",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"30",
+						"21"
+					],
+					"path": [
+						"api",
+						"v2",
+						"monitor",
+						"router",
+						"static"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.30.21/api/v2/monitor/router/lookup?destination=8.8.8.8",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "skQyt7tq9xscpr6z9cg87dHns7t34y",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.30.21/api/v2/monitor/router/lookup?destination=8.8.8.8",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"30",
+						"21"
+					],
+					"path": [
+						"api",
+						"v2",
+						"monitor",
+						"router",
+						"lookup"
+					],
+					"query": [
+						{
+							"key": "destination",
+							"value": "8.8.8.8"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.30.21/api/v2/cmdb/firewall/policy/?action=schema",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "skQyt7tq9xscpr6z9cg87dHns7t34y",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.30.21/api/v2/cmdb/firewall/policy/?action=schema",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"30",
+						"21"
+					],
+					"path": [
+						"api",
+						"v2",
+						"cmdb",
+						"firewall",
+						"policy",
+						""
+					],
+					"query": [
+						{
+							"key": "action",
+							"value": "schema"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.30.21/api/v2/cmdb/router/static/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "skQyt7tq9xscpr6z9cg87dHns7t34y",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.30.21/api/v2/cmdb/router/static/",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"30",
+						"21"
+					],
+					"path": [
+						"api",
+						"v2",
+						"cmdb",
+						"router",
+						"static",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.30.21/api/v2/cmdb/router/static/3?vdom=root",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "skQyt7tq9xscpr6z9cg87dHns7t34y",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{'status': \"disable\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.30.21/api/v2/cmdb/router/static/3?vdom=root",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"30",
+						"21"
+					],
+					"path": [
+						"api",
+						"v2",
+						"cmdb",
+						"router",
+						"static",
+						"3"
+					],
+					"query": [
+						{
+							"key": "vdom",
+							"value": "root"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.30.21/api/v2/cmdb/router/static?vdom=root",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "skQyt7tq9xscpr6z9cg87dHns7t34y",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {'seq-num': 4, 'status': \"enable\", 'dst': \"10.40.0.0 255.255.255.0\", 'src': \"0.0.0.0 0.0.0.0\", 'gateway': \"192.168.30.1\",'device': \"port1\", 'comment': \"Added by automatic script\", 'sdwan': \"disable\", 'vrf': 0}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.30.21/api/v2/cmdb/router/static?vdom=root",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"30",
+						"21"
+					],
+					"path": [
+						"api",
+						"v2",
+						"cmdb",
+						"router",
+						"static"
+					],
+					"query": [
+						{
+							"key": "vdom",
+							"value": "root"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "value",
+				"value": "{{access_code}}",
+				"type": "string"
+			},
+			{
+				"key": "key",
+				"value": "access_code",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "access_code",
+			"value": "p9Ngf7gpsnrkfpz8G0y9fhqtjqHkwc"
+		}
+	]
+}
